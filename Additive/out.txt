@@ -1,0 +1,26 @@
+/cm/shared/apps/python/3.7.3/bin/python
+/cm/shared/apps/python/3.7.3/bin/python
+/cm/shared/apps/python/3.7.3/bin/virtualenv
+/cm/shared/apps/python/3.7.3/bin/virtualenv
+Using base prefix '/cm/shared/apps/python/3.7.3'
+New python executable in /home/vviswanathan/mypython/bin/python3.7
+Not overwriting existing python script /home/vviswanathan/mypython/bin/python (you must use /home/vviswanathan/mypython/bin/python3.7)
+Installing setuptools, pip, wheel...
+done.
+Requirement already satisfied: numpy in /home/vviswanathan/mypython/lib/python3.7/site-packages (1.20.1)
+Requirement already satisfied: docplex in /home/vviswanathan/mypython/lib/python3.7/site-packages (2.18.200)
+Requirement already satisfied: joblib in /home/vviswanathan/mypython/lib/python3.7/site-packages (1.0.1)
+Requirement already satisfied: cvxpy in /home/vviswanathan/mypython/lib/python3.7/site-packages (1.1.11)
+Requirement already satisfied: scs>=1.1.6 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from cvxpy) (2.1.2)
+Requirement already satisfied: ecos>=2 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from cvxpy) (2.0.7.post1)
+Requirement already satisfied: numpy>=1.15 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from cvxpy) (1.20.1)
+Requirement already satisfied: osqp>=0.4.1 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from cvxpy) (0.6.2.post0)
+Requirement already satisfied: scipy>=1.1.0 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from cvxpy) (1.6.1)
+Requirement already satisfied: qdldl in /home/vviswanathan/mypython/lib/python3.7/site-packages (from osqp>=0.4.1->cvxpy) (0.1.5.post0)
+Requirement already satisfied: sklearn in /home/vviswanathan/mypython/lib/python3.7/site-packages (0.0)
+Requirement already satisfied: scikit-learn in /home/vviswanathan/mypython/lib/python3.7/site-packages (from sklearn) (0.24.1)
+Requirement already satisfied: numpy>=1.13.3 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.20.1)
+Requirement already satisfied: scipy>=0.19.1 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.6.1)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from scikit-learn->sklearn) (2.1.0)
+Requirement already satisfied: joblib>=0.11 in /home/vviswanathan/mypython/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.0.1)
+0000.60.60.6111.41.4221441.424

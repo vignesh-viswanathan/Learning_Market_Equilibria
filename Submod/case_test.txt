@@ -1,0 +1,9 @@
+50
+30
+1
+1
+1
+1
+3
+../data1.csv
+test_out.txt
