@@ -16,7 +16,7 @@ All of the code uses [multiprocessing](https://docs.python.org/3/library/multipr
 
 The data structure used to represent allocations and samples is a simple binary matrix.
 
-The [Unit Demand](UnitDemand), [Additve](Additive) and [Submod](Submod) folders contain all the code needed to compute equilibria as well as summarise the computed equilibria for unit demand markets, additive markets and submodular markets respectively. The program files used for each market are unitdemand_parallel.py, additive_parallel.py and submod_parallel.py. These files take as input the following (in this specific order)
+The [Unit Demand](UnitDemand), [Additive](Additive) and [Submod](Submod) folders contain all the code needed to compute equilibria as well as summarise the computed equilibria for unit demand markets, additive markets and submodular markets respectively. The program files used for each market are unitdemand_parallel.py, additive_parallel.py and submod_parallel.py. These files take as input the following (in this specific order)
 
 - Number of players
 - Number of goods
@@ -28,6 +28,6 @@ The [Unit Demand](UnitDemand), [Additve](Additive) and [Submod](Submod) folders 
 - Input Data File Address
 - Output File Address
 
-The program generates an output text file summarising the allocation output by the algorithms used in the paper. This output file is then used by the Graph.ipynb file in each folder to create graphs.
+The program generates an output text file summarising the allocation output by the algorithms used in the paper in terms of total welfare, loss and a few other factors. This output file is then used by the Graph.ipynb file in each folder to create graphs.
 
 In case of any queries, feel free to contact vviswanathan (at) umass.edu
